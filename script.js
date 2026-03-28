@@ -77,10 +77,10 @@ function createScriptCard(script) {
     }
 
     const keyBanner = script.key ? 
-        '<div class="script-key-banner">🔐 يحتاج إلى مفتاح</div>' : '';
+        '<div class="script-key-banner">🔐 يحتاج لمفتاح للاستخدام</div>' : '';
 
     const keyWarning = script.key ?
-        '<div class="script-key-warning">⚠️ يتطلب مفتاح للاستخدام</div>' : '';
+        '<div class="script-key-warning">⚠️ يوجد فيه مفتاح </div>' : '';
 
     const imageUrl = script.image || script.game?.imageUrl || 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"%3E%3Crect fill="%23334155" width="100" height="100"/%3E%3C/svg%3E';
 
